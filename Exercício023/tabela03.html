@@ -34,6 +34,20 @@
             color: white;
         }
 
+        /* Efeito Zebrado na tabela (2n, odd = Par, even = Impar)*/
+        tbody > tr:nth-child(2n) {
+            background-color: rgb(185, 185, 185);
+        }
+
+        /* Outro modo de Efeito Zebrado */
+        /*tbody > tr:nth-child(odd){ odd = 2n-1
+            background-color: white;
+        }
+
+        tbody > tr:nth-child(even) { even = 2n
+            background-color: darkgray;
+        }*/
+
         tfoot {
             background-color: darkgray;
             color: black;
