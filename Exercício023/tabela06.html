@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <style>
+        body {
+            font-family: Arial, Helvetica, sans-serif;
+        }
+
+        table {
+            border-collapse: collapse;
+            width: 400px;
+        }
+
+        th, td {
+            border: 1px solid black;
+            padding: 6px;
+        }
+
+        /* .destaque {
+            background-color: yellow;
+        }*/
+
+        .nome {
+            background-color: aquamarine;
+        }
+
+        .sexo {
+            background-color: darksalmon;
+        }
+    </style>
+    <title>Tabelas</title>
+</head>
+<body>
+    <h1>Exercícios de Tabelas</h1>
+    <table>
+        <colgroup>
+            <col class="vermelho">
+            <col class="azul">
+            <col class="Ivermelho">
+            <col class="azul">
+            
+            <col class="nome">
+            <col class="sexo">
+            <col class="Idade">
+            <col class="prof">
+            <col class="group" span="2">
+        </colgroup>
+        <caption>Cadastro</caption>
+        <tr>
+            <th scope="col">Nome</th>
+            <th scope="col">Sexo</th>
+            <th scope="col">Idade</th>
+            <th scope="col">Profissâo</th>
+        </tr>
+        <tr>
+            <td>Ana</td>
+            <td>F</td>
+            <td>25</td>
+            <td>Jornalista</td>
+        </tr>
+        <tr class="destaque">
+            <td>Beatriz</td>
+            <td>F</td>
+            <td>30</td>
+            <td>Artista 3D</td>
+        </tr>
+        <tr>
+            <td>Paulo</td>
+            <td>M</td>
+            <td>28</td>
+            <td>Cantor</td>
+        </tr>
+        <tr>
+            <td>Bruno</td>
+            <td>M</td>
+            <td>35</td>
+            <td>Atendente</td>
+        </tr>
+    </table>
+</body>
+</html>
